@@ -44,7 +44,7 @@
                <div class="text-3">And I'm a Web Developer
 <!--                    <span class="typing"></span> -->
                </div>
-                <a href="#">Hire me</a>
+                <a href="mailto:pdiwas8@gmail.com">Hire me</a>
             </div>
         </div>
     </section>
@@ -58,10 +58,10 @@
                     <img src="images/profile.jpg" alt="hello">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Diwas and I'm a <span class="typing-2"></span></div>
-                    <p>I'm a 3<sup>rd</sup> year Computer Engineering student pursuing my BTECH degree from PUSET(Purbanchal university school of engineering and technology)Biratnagar,NEPAL
-                        <br><br>I enjoy building awesome software that solve practical problems.<br><br>When i am not coding to my project ,I like to spend my time reading books,playing minecraft. 
+                    <!-- <div class="text">I'm Diwas and I'm a <span class="typing-2"></span></div> -->
+                    <p style="margin-bottom: 0.75rem;">I am Diwas Poudel, a web developer from Nepal with a strong foundation in modern web technologies. I have gained hands-on experience and honed my skills through my role as a Web Developer at PRACAS Infosys. My expertise includes HTML, CSS, Bootstrap, Tailwind CSS, and React, and I am passionate about creating responsive and dynamic websites.
                     </p>
+                    <p>Driven by a keen interest in web development and technology, I am dedicated to enhancing user experiences through innovative solutions. Proficient in API integration and committed to continuous improvement, I excel at problem-solving and collaborating within teams. I am excited to take on new challenges and contribute to the evolving field of web development.</p>
                     <a href="#">Download CV</a>
                 </div>
             </div>
@@ -106,7 +106,7 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p>I specialize in creating dynamic and responsive websites using modern web technologies. My expertise includes HTML, CSS, Bootstrap, React, and Tailwind CSS. I am adept at API integration and committed to delivering high-quality user experiences through effective problem-solving and collaboration.</p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
@@ -221,7 +221,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">Diwaspoudelgmail.com</div>
+                                <div class="sub-title">pdiwas8@gmail.com</div>
                             </div>
                         </div>
                     </div>
@@ -253,10 +253,18 @@
     </section>
 
     <!-- footer section start -->
-    <footer>
-        <span><span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+      <!-- Your content here -->
+      <footer>
+        <span><span class="far fa-copyright"></span> <span id="copyright-year"></span> All rights reserved.</span>
     </footer>
 
+    <!-- JavaScript to add the current year -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentYear = new Date().getFullYear();
+            document.getElementById('copyright-year').textContent = currentYear;
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
