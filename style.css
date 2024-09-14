@@ -86,6 +86,10 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
+.nav-logo{
+    width: auto;
+    height: 3rem;
+}
 .navbar.sticky{
     padding: 15px 0;
     background: crimson;
