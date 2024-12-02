@@ -47,6 +47,7 @@ section {
 .contact,
 footer {
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .about .about-content,
@@ -104,11 +105,13 @@ section .title::after {
 .navbar-logo-image {
     width: auto;
     height: 3rem;
+    filter: grayscale(75%);
 }
 
 .navbar.sticky {
     padding: 15px 0;
-    background: crimson;
+    /* background: crimson; */
+    background: rgb(14, 8, 8);
 }
 
 .navbar .max-width {
