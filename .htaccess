@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.yourwebsite\.com [NC]
+RewriteRule ^(.*)$ https://diwashpoudel.com.np/$1 [L,R=301]
